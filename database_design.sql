@@ -103,7 +103,7 @@ select
   full_name, 
   email from users 
   where full_name ilike 'Tanvir%'
-  or full_name ilike '%Haque';
+  or full_name ilike '%Haque%';
 
 
 -- Query 3: Retrieve all booking records where the payment status is missing (NULL), replacing the empty result with 'Action Required'.
